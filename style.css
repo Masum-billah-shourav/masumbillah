@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #0C356A;
+    background-image:url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+@media screen and (max-width:600px) {
+    .container  {
+        background-color: olive;
+        color: white;
+        /* font-size: 10px; */
+      }
+      .container img{
+        width: 200px;
+        height: 200px;
+      }
+    
+}
+.hr-style{
+    border: 4px dotted white;
+    border-bottom: none;
+    width: 190px;
+}
+.bar-style{
+    color: white;
+}
+.navbar-nav{
+    position: relative;
+    margin-left: auto;
+}
+/* header start */
+.img-logo img{
+    border: 2px solid black;
+}
+.banner-content{
+    padding: 5% 5%;    
+}
+.banner-content h1{
+    /* color: #362FD9; */
+    text-transform: uppercase;
+    font-family: 'Handlee','cursive';
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-content p{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.nav-link{
+    color:white;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+.nav-link:hover{
+    background-color:#ED7D31;
+    color: white;
+    transform: scale(1.1);
+}
+.img-col img{
+   margin: auto;
+   border: 2px solid #FF6AC2;
+   border-radius: 10px;
+}
+/* header end */
+
+/* about me start */
+#About-me{
+    margin-top: 10px;
+    /* background-color: #FFA33C; */
+    padding:1%;
+    
+}
+.about-title h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color:;
+}
+.personal-info{
+    padding: 5% 5%;
+}
+.icon-style{
+    background-color:#F875AA;
+    color: white;
+    padding: 15px;
+}
+.personal-info h3{
+    color: #F99417;
+    font-weight: bolder;
+}
+.personal-info span{
+    font-size: 17px;
+}
+.achieved-class i{
+    background-color:#F875AA;
+    color:white;
+    padding: 15px;
+}
+.achieved-class h3{
+    color: #F99417;
+    font-weight: bolder;
+}
+.achieved-class p{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.style-font{
+    color:#FBA1B7 ;
+}
+/* about me section end */
+/* do start */
+#what-I-do{
+    /* background-color:#FFDFDF; */
+    padding:2px 0px;
+}
+.do-title h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.Education-section h3{
+    font-weight: bolder;
+}
+.info{
+    width: 300px;
+    border: 1px solid #DA0C81;
+    padding: 15px;
+    border-radius: 5px;
+}
+.info:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: all 0.4s ease-in-out 0.001s;
+    box-shadow: 2px 4px 3px greenyellow;
+}
+/* do end */
+#My-skills{
+    /* background-color:#89CFF3 ; */
+}
+.skill-title h1{
+    margin-top: auto;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.my-col{
+    position: relative;
+    left: 40px;
+}
+.my-col h3{
+    font-weight: bolder;
+}
+.hcj-icon{
+     position: relative;
+     left: 40px;
+}
+.hcj-icon td{
+    font-size: 30px;
+}
+.do-font{
+    color:#FFA33C;
+}
+/* do end */
+/* skill-section start */
+
+
+.my-col h3{
+    color: aqua;
+}
+/* skill-section end*/
+
+/* reviews start */
+#reviews{
+    /* color: white; */
+    padding: 5%;
+    /* background-color: #2f76d9; */
+}
+.feedback-img{
+    border: 2px solid greenyellow;
+    margin-bottom: 5px;
+    width: 100px;
+    height: auto;
+}
+.review-title h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.carousel-item{
+    padding: 7% 15%;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.carousel-control-prev-icon{
+    color: #1F1717;
+    background-color: #1F1717;   
+}
+.carousel-control-next-icon{
+    color: #1F1717;
+    background-color: #1F1717;   
+}
+/* reviews end */
+/* contact start */
+@media screen and(max-width:360px) {
+    #contact-col span{
+        font-size: 20px;
+    }
+    
+}
+#contact-me{
+    /* background-color: #CDF5FD; */
+}
+.contact-col span{
+    border: 2px solid rgb(38, 255, 0);
+    padding:0px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.contact-col p{
+    font-size: 19px;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+/* contact-end */
+
+/* footer start */
+.footer-section{
+    background-color: #45474B;
+    color: white;
+}
+.copy-icon p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.style-icon{
+    color: white;
+}
+/* footer end */
